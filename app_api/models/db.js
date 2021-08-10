@@ -6,8 +6,6 @@ if (process.env.NODE_ENV === 'production') {
 }
 mongoose.connect(dbURI, {useNewUrlParser: true});
 
-console.log({dbURI});
-
 
 // const { MongoClient } = require('mongodb');
 // const uri = process.env.MLAB_URI;
